@@ -1,0 +1,29 @@
+---
+import '@fontsource-variable/inter';
+---
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="stylesheet" href="/src/styles/global.css">
+		<meta name="generator" content={Astro.generator} />
+		<title>Peter Yuan</title>
+	</head>
+	<body>
+		<header>
+			<img class="profile-picture" src="/profile_pic.jpg" alt="">
+			<h1>Peter Yuan</h1>
+			<p>I am a full-stack developer who enjoys solving problems and helping others</p>
+		</header>
+
+		<section>
+			<h2>Projects</h2>
+		</section>
+		<slot />
+	</body>
+</html>
+
+<style>
+</style>
