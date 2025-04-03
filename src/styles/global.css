@@ -17,6 +17,7 @@ body {
 	margin: 0 auto;
 }
 
+/* Hero Component */
 header {
 	text-align: left;
 	padding-top: 6rem;
@@ -93,6 +94,8 @@ header h2 {
 	body {
 		width: 60ch;
 	}
+
+	/* Hero Component */
 	header {
 		padding-top: 4rem;
 	}
@@ -104,6 +107,7 @@ header h2 {
 		margin: 0 2rem;
 	}
 
+	/* Hero Component */
 	header {
 		padding-top: 1rem;
 	}
