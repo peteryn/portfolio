@@ -1,58 +1,60 @@
-
-* {
-    margin: 0;
-    padding: 0;
+::root {
+	--background-color: #1e1e2e;
+	--darkest-color: #11111b;
+	--text-color: #cdd6f4;
+	--subtext-color: #bac2de;
+	--accent-color: #89b4fa;
 }
 
-/* body {
-} */
+* {
+	margin: 0;
+	padding: 0;
+}
 
 body {
-  height: 100vh;
-  margin: 0;
-background-image: linear-gradient(#1e1e2e, #11111b);
+	background-image: linear-gradient(#1e1e2e, #11111b);
 }
 
 header {
-    text-align: center;
-    /* margin-top: 10em; */
-    padding: 16em 0;
+	text-align: center;
+	/* margin-top: 10em; */
+	padding: 16em 0;
 }
 
 h1 {
-    font-family: "Inter Variable";
-    color: #cdd6f4;
-    font-size: 6vh;
+	font-family: "Inter Variable";
+	color: #cdd6f4;
+	font-size: 6vh;
 }
 p {
-    font-family: "Inter Variable";
-    color: #a6adc8;
-    font-size: 2vh;
-    padding: 0 10px;
+	font-family: "Inter Variable";
+	color: #a6adc8;
+	font-size: 2vh;
+	padding: 0 10px;
 }
 
 .profile-picture {
-    border-radius: 50%;
-    width: 8rem;
+	border-radius: 50%;
+	width: 8rem;
 }
 
 section {
-    text-align: center;
+	text-align: center;
 }
 
 h2 {
-    font-family: "Inter Variable";
-    color: #cdd6f4;
-    font-size: 4vh;
+	font-family: "Inter Variable";
+	color: #cdd6f4;
+	font-size: 4vh;
 }
 
 .projects {
-    background-color:green;
-    color: white;
-    display: grid;
-    margin: auto;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10%;
-    max-width: 90%;
-    gap: 10px;
+	background-color: green;
+	color: white;
+	display: grid;
+	margin: auto;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10%;
+	max-width: 90%;
+	gap: 10px;
 }
