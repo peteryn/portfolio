@@ -84,6 +84,30 @@ header h2 {
 	text-decoration: none;
 }
 
+/* Projects */
+.projects {
+	width: 100%;
+	text-align: left;
+	margin: 5rem 0;
+}
+
+.projects h2 {
+	color: var(--text-color);
+	font-family: "Inter Variable", sans-serif;
+	font-size: 2em;
+}
+
+.projects-container {
+	width: 100%;
+	display: grid;
+	text-align: center;
+	grid-template-columns: 1fr 1fr;
+}
+
+.projects-container div {
+	background-color: darkseagreen;
+}
+
 @media (max-width: 1100px) {
 	body {
 		width: 80ch;
@@ -103,7 +127,6 @@ header h2 {
 
 @media (max-width: 600px) {
 	body {
-		width: 40ch;
 		margin: 0 2rem;
 	}
 
@@ -118,5 +141,9 @@ header h2 {
 
 	.social-links-bottom {
 		display: block;
+	}
+
+	.projects-container {
+		grid-template-columns: 1fr;
 	}
 }
